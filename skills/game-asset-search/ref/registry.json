@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "scope": "Site-level registry for finding game asset sources with AI.",
+  "notes": [
+    "This registry summarizes site-level tendencies and cautions, not guarantees about individual assets.",
+    "Always verify the current terms, license, and usage conditions on the source site and on the specific asset page before use."
+  ],
+  "sources": [
+    {
+      "id": "kenney",
+      "name": "Kenney",
+      "url": "https://kenney.nl/",
+      "asset_types": ["2d", "3d", "ui", "audio"],
+      "best_for": ["prototype-ready packs", "consistent starter assets", "clean game UI sets"],
+      "style_tags": ["stylized", "clean", "cartoon", "low-poly", "prototype-friendly"],
+      "license_summary": "Known for broadly reusable game asset packs, but the current pack page and site terms should still be checked before release.",
+      "commercial_use": "generally-friendly-with-verification",
+      "credit_required": "usually-not-required-check-current-terms",
+      "cautions": [
+        "Confirm the current terms on the pack page before shipping.",
+        "Some packs are intentionally simple and may need extra polish for a final commercial presentation."
+      ],
+      "query_hints": ["low poly nature pack", "platformer tiles", "ui icons", "top-down shooter assets"]
+    },
+    {
+      "id": "quaternius",
+      "name": "Quaternius",
+      "url": "https://quaternius.com/",
+      "asset_types": ["3d"],
+      "best_for": ["low-poly environment packs", "modular prototype assets", "stylized 3D scenes"],
+      "style_tags": ["low-poly", "stylized", "modular", "cartoon", "prototype-friendly"],
+      "license_summary": "Often used as a permissive source for low-poly 3D assets, but users should verify the latest terms for the specific download.",
+      "commercial_use": "generally-friendly-with-verification",
+      "credit_required": "usually-not-required-check-current-terms",
+      "cautions": [
+        "Validate the current license text on the asset page or site before release.",
+        "Asset variety is focused on the creator's low-poly style rather than photoreal or mixed styles."
+      ],
+      "query_hints": ["low poly fantasy", "modular dungeon", "stylized nature", "prototype characters"]
+    },
+    {
+      "id": "polyhaven",
+      "name": "Poly Haven",
+      "url": "https://polyhaven.com/",
+      "asset_types": ["3d", "textures", "hdris"],
+      "best_for": ["photoreal materials", "HDRI lighting", "realistic environment reference"],
+      "style_tags": ["photoreal", "realistic", "pbr", "high-resolution", "environment"],
+      "license_summary": "Commonly presented as a highly permissive source, but users should still confirm the current site license for their intended use.",
+      "commercial_use": "generally-friendly-with-verification",
+      "credit_required": "typically-not-required-check-current-terms",
+      "cautions": [
+        "Best suited to realistic rendering workflows rather than stylized game packs.",
+        "Verify the current license statement if the project has strict legal review requirements."
+      ],
+      "query_hints": ["rock material pbr", "forest hdri", "concrete texture", "metal surface"]
+    },
+    {
+      "id": "sketchfab",
+      "name": "Sketchfab",
+      "url": "https://sketchfab.com/",
+      "asset_types": ["3d", "characters", "props", "environments"],
+      "best_for": ["broad 3D discovery", "niche subject searches", "reference models and downloadable assets"],
+      "style_tags": ["varied", "stylized", "realistic", "scanned", "community-driven"],
+      "license_summary": "License and download terms vary widely by listing, creator, and plan. Commercial use and redistribution must be checked per asset.",
+      "commercial_use": "varies-by-listing",
+      "credit_required": "varies-by-listing",
+      "cautions": [
+        "This is a community-driven platform, so license, quality, and download availability differ per asset.",
+        "Do not assume a downloadable model is commercially usable without checking the specific asset page."
+      ],
+      "query_hints": ["downloadable low poly character", "stylized prop", "medieval environment", "rigged creature"]
+    },
+    {
+      "id": "ambientcg",
+      "name": "ambientCG",
+      "url": "https://ambientcg.com/",
+      "asset_types": ["textures", "materials", "hdris"],
+      "best_for": ["PBR texture workflows", "realistic materials", "environment surfaces"],
+      "style_tags": ["photoreal", "realistic", "pbr", "surface-detail", "environment"],
+      "license_summary": "Often used for permissive material downloads, but users should verify the latest site license and any current restrictions.",
+      "commercial_use": "generally-friendly-with-verification",
+      "credit_required": "typically-not-required-check-current-terms",
+      "cautions": [
+        "The focus is materials and HDRIs, not full game-ready prop packs.",
+        "Confirm the current license text if legal certainty is important."
+      ],
+      "query_hints": ["wood planks pbr", "ground gravel", "rusted metal", "studio hdri"]
+    },
+    {
+      "id": "freesound",
+      "name": "Freesound",
+      "url": "https://freesound.org/",
+      "asset_types": ["audio", "sound-effects", "ambience", "voice"],
+      "best_for": ["sound effect discovery", "ambient recordings", "community audio variety"],
+      "style_tags": ["varied", "community-driven", "field-recording", "experimental", "utility"],
+      "license_summary": "Licenses vary per upload, so commercial use, attribution, and redistribution must be confirmed on each sound page.",
+      "commercial_use": "varies-by-listing",
+      "credit_required": "varies-by-listing",
+      "cautions": [
+        "This is a community-upload platform, so license and recording quality differ significantly between sounds.",
+        "Always review the exact license on the individual sound page before use."
+      ],
+      "query_hints": ["ui click", "fantasy ambience", "footstep gravel", "weapon impact"]
+    },
+    {
+      "id": "mixkit",
+      "name": "Mixkit",
+      "url": "https://mixkit.co/",
+      "asset_types": ["audio", "music", "video", "templates"],
+      "best_for": ["quick free audio picks", "stock-style sound effects", "lightweight content sourcing"],
+      "style_tags": ["stock", "utility", "clean", "varied", "fast-turnaround"],
+      "license_summary": "The site is often used for free stock assets, but permitted use and restrictions should be checked against the current terms for the relevant category.",
+      "commercial_use": "check-current-terms",
+      "credit_required": "check-current-terms",
+      "cautions": [
+        "Asset categories may have different usage expectations, so confirm the current terms for the exact item type.",
+        "Coverage is broader than game assets specifically, so search intent may need tightening."
+      ],
+      "query_hints": ["game ui sounds", "whoosh effect", "ambient loop", "cinematic hit"]
+    },
+    {
+      "id": "zapsplat",
+      "name": "Zapsplat",
+      "url": "https://www.zapsplat.com/",
+      "asset_types": ["audio", "sound-effects", "music"],
+      "best_for": ["large SFX library", "common game sound searches", "production utility audio"],
+      "style_tags": ["stock", "utility", "varied", "broad-coverage", "production-ready"],
+      "license_summary": "Usage terms may depend on account level or plan, so commercial use and attribution requirements must be checked against the current site terms.",
+      "commercial_use": "plan-dependent-check-current-terms",
+      "credit_required": "plan-dependent-check-current-terms",
+      "cautions": [
+        "Attribution and allowed use can depend on the current plan or membership level.",
+        "Do not assume all downloads have the same obligations; confirm before shipping."
+      ],
+      "query_hints": ["button click", "magic spell", "sword swing", "menu transition"]
+    },
+    {
+      "id": "opengameart",
+      "name": "OpenGameArt",
+      "url": "https://opengameart.org/",
+      "asset_types": ["2d", "3d", "audio", "music", "ui", "tilesets"],
+      "best_for": ["indie-friendly asset discovery", "retro or pixel art packs", "mixed game asset searches"],
+      "style_tags": ["varied", "pixel-art", "retro", "stylized", "community-driven"],
+      "license_summary": "Licenses vary by submission, so commercial use, attribution, and redistribution must be confirmed on each asset page.",
+      "commercial_use": "varies-by-listing",
+      "credit_required": "varies-by-listing",
+      "cautions": [
+        "This is a community-submitted site, so consistency in style, quality, and licensing is limited.",
+        "Always read the exact license attached to the selected asset."
+      ],
+      "query_hints": ["pixel ui", "fantasy tileset", "8-bit music", "top-down character"]
+    },
+    {
+      "id": "mixamo",
+      "name": "Mixamo",
+      "url": "https://mixamo.com/",
+      "asset_types": ["characters", "animations", "rigged-3d"],
+      "best_for": ["humanoid animation prototyping", "rigged character workflows", "animation retarget starting points"],
+      "style_tags": ["character", "animation", "rigged", "humanoid", "prototype-friendly"],
+      "license_summary": "Widely used for rigged characters and animations, but the current Adobe and service-specific terms should be reviewed for the intended pipeline.",
+      "commercial_use": "check-current-terms",
+      "credit_required": "check-current-terms",
+      "cautions": [
+        "Best aligned with humanoid character animation workflows rather than general-purpose prop sourcing.",
+        "Review the latest service terms, especially for redistribution and pipeline-specific restrictions."
+      ],
+      "query_hints": ["idle animation", "walk cycle", "humanoid rig", "combat animation"]
+    },
+    {
+      "id": "piskel",
+      "name": "Piskel",
+      "url": "https://piskelapp.com/",
+      "asset_types": ["2d", "pixel-art", "sprites", "animation-tool"],
+      "best_for": ["making pixel art", "editing simple sprite sheets", "quick browser-based animation drafts"],
+      "style_tags": ["pixel-art", "retro", "editor", "sprite-workflow", "tooling"],
+      "license_summary": "This is primarily a creation tool rather than an asset source catalog, so usage questions usually relate to assets you create or import yourself.",
+      "commercial_use": "not-an-asset-library-check-tool-and-export-context",
+      "credit_required": "not-applicable-for-site-level-asset-sourcing",
+      "cautions": [
+        "Treat this as a pixel-art workflow tool, not a broad marketplace of ready-made assets.",
+        "Imported or third-party assets used inside the tool keep their own original license obligations."
+      ],
+      "query_hints": ["pixel sprite workflow", "idle animation draft", "tileset editing", "sprite sheet cleanup"]
+    },
+    {
+      "id": "aseprite",
+      "name": "Aseprite",
+      "url": "https://aseprite.org/",
+      "asset_types": ["2d", "pixel-art", "sprites", "animation-tool"],
+      "best_for": ["pixel art production", "sprite animation", "tileset creation workflows"],
+      "style_tags": ["pixel-art", "retro", "editor", "sprite-workflow", "tooling"],
+      "license_summary": "This is primarily a pixel-art editor rather than a site for browsing ready-made asset libraries.",
+      "commercial_use": "not-an-asset-library-check-tool-and-export-context",
+      "credit_required": "not-applicable-for-site-level-asset-sourcing",
+      "cautions": [
+        "Treat this as asset creation software, not a distribution catalog.",
+        "Any third-party assets used with the tool remain subject to their own licenses."
+      ],
+      "query_hints": ["pixel art workflow", "sprite animation", "tileset creation", "palette-based art"]
+    },
+    {
+      "id": "itch-game-assets",
+      "name": "itch.io Game Assets",
+      "url": "https://itch.io/game-assets",
+      "asset_types": ["2d", "3d", "audio", "ui", "tools", "mixed"],
+      "best_for": ["indie marketplace discovery", "genre-specific packs", "finding niche creator storefronts"],
+      "style_tags": ["varied", "indie", "stylized", "pixel-art", "marketplace"],
+      "license_summary": "Terms, pricing, attribution, and commercial use vary by seller and listing, so every asset page must be checked individually.",
+      "commercial_use": "varies-by-listing",
+      "credit_required": "varies-by-listing",
+      "cautions": [
+        "This is a marketplace with creator-specific terms, so there is no single site-wide license assumption for assets.",
+        "Quality, support expectations, and permitted use can differ significantly from one listing to another."
+      ],
+      "query_hints": ["pixel art ui", "low poly environment", "jrpg tileset", "horror ambience"]
+    }
+  ]
+}
